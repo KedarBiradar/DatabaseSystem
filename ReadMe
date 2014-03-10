@@ -1,0 +1,24 @@
+Name:
+	Read me file for Database Systems project Deliverable 3
+	Implementation of "SELECT" query compilation and execution
+
+How to run:
+	Parser Used : General sql parser(TGSqlParser)
+	Link : http://www.sqlparser.com/
+	Vendor : (EDbVendor.dbvoracle)
+	
+	1.Before running the project add gsp.jar file to project
+	2.use run.sh file along with config.txt path\
+	3.bash run.sh <configPath>
+	4.Enter the total numbere of test cases to be excuted.
+	5.Enter the SELECT queries to execute.
+	
+Description:
+	1.This deliverable is build on top of deliverable1(LRU implementation & memory management in given memory) and deliverable2(SELECT & CREATE command query compilation).
+	2.In deliverable 3 we have implemented the functionality which will Compile and execute the select query.
+	3.We have created the index for each attribute of a table for faster query execution.
+	4.Once query is parsed and compiled with no errors it will be passed for Executing to a function in deliverable 3.
+	5.Query will fetch relevant record numbers and corresponding record length and it will be passed to Deliverable 1 for execution within given memory constraints.
+	
+Author:
+	Written by Shrikant Salunke & Kedar Biradar
